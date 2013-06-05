@@ -17,12 +17,13 @@ Hero = function (obj) {
             this[a] = obj[a];
         }
     }
+    object=obj;
     Hero.prototype.newWindow(obj);
 };
 
 Hero.prototype={
     newWindow: function(obj){
-        Window.prototype.battleWindow(obj);
+        Window.prototype.newWindow(obj);
     }
 };
 
