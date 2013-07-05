@@ -18,9 +18,6 @@ Window.prototype= {
     }
 }
 
-
-
-
 function fight(){
     var roller = document.getElementById("roller"),
         i=0;
